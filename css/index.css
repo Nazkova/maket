@@ -1,42 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,700;1,500&display=swap');
 :root {
+    font-family: 'Cormorant Infant', serif;
     background-image: url(../img/wooden-wall-different-color.jpg);
     background-size: cover;
+    scroll-behavior: smooth;
     height: 100%;
-    color: white;
+    --main-color: white;
+    --accent-color: black;
 }
+
 header {
     font-family: 'Cormorant Infant', serif;
-    font-size: 30px;
-    
-    
+    font-size: 25px;
+    }
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
+
+IMG.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.burger-icon {
+    font-size: 3rem;
+}
+
+.burger-icon {
+    cursor: pointer;
+}
+
+    #burger-checkbox {
+    display: none;
+}
+
+header .menu {
+    list-style-type: none;
+    display: none;
+}
+
+header input:checked ~ .menu {
+    display: flex;
+} 
+
+header .menu {
+    flex-direction: column;
+}
+
+header .menu a {
+    text-decoration: none;
+    text-transform: inherit;
+    color: var(--main-color);
+}
+
+header .menu a:hover {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+@media (min-width:750px) {
+    
+    header nav {
+    display: flex;
+    }
+    
+    header .burger-icon {
+        display: none;
+    }
+    
+    header .menu {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        align-items: center;
+        flex-direction: row; 
+    }
+}
+
 h1 {
     font-size: 50px;
     font-weight:bold;
+    color: var(--main-color)
 }
+
 p {
     font-size: 25px;
     font-style: normal;    
 }
+
 main {
-    font-family:'Cormorant Infant', serif;   
+    font-family:'Cormorant Infant', serif;
+    color: var(--main-color);   
 }
+
 h3 {
     font-size: 50px;
     font-weight: bold;
 }
+
 h4 {
     font-size: 30px;
     }
+
 h5 {
     font-size: 35px;
 }
+
 p {
     font-size: 25px;
     font-style: italic;
 }
+
 footer {
     font-family: 'Cormorant Infant', serif;
-    
+    color: var(--main-color);
 }
