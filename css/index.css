@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,700;1,500&display=swap');
 :root {
     font-family: 'Cormorant Infant', serif;
-    background-image: url(../img/wooden-wall-different-color.jpg);
+    background-image: url(../img/white-wall.jpg);
     background-size: cover;
     scroll-behavior: smooth;
     height: 100%;
-    --main-color: white;
+    --main-color: black;
     --accent-color: black;
 }
 
 header {
     font-family: 'Cormorant Infant', serif;
     font-size: 25px;
+    font-weight: 700;
     }
 
 body {
@@ -96,7 +97,6 @@ main {
     font-family:'Cormorant Infant', serif;
     color: var(--main-color);   
 }
-
 h3 {
     font-size: 50px;
     font-weight: bold;
@@ -109,12 +109,6 @@ h4 {
 h5 {
     font-size: 35px;
 }
-
-p {
-    font-size: 25px;
-    font-style: italic;
-}
-
 footer {
     font-family: 'Cormorant Infant', serif;
     color: var(--main-color);
