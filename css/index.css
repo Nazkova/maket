@@ -20,6 +20,12 @@ body {
     margin: auto;
 }
 
+p21 {     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 IMG.logo {
     display: block;
     margin-left: auto;
