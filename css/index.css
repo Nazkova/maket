@@ -14,18 +14,27 @@ header {
     font-size: 25px;
     font-weight: 700;
     }
-
+ /*css по плеєру*/
+   .audio-track {
+    width: 150px;
+    height: 3px;
+    background-color: #dddddd;
+    margin: auto;
+    position: relative;   
+}
+ 
+.time {
+    width: 0;
+    height: 3px;
+    background-color: #474747
+}
+  
+/* закінчення */ 
 body {
     max-width: 980px;
     margin: auto;
 }
 
-p21 {     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 IMG.logo {
     display: block;
     margin-left: auto;
@@ -69,10 +78,11 @@ header .menu a:hover {
     color: var(--accent-color);
 }
 
-@media (min-width:750px) {
+@media (min-width:740px) {
     
     header nav {
     display: flex;
+    align-items: stretch;
     }
     
     header .burger-icon {
