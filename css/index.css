@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,700;1,500&display=fallback');
 :root {
     font-family: 'Cormorant Infant', serif;
-    background-image: url(.img/white-wall.jpg);
+    background-image: url(../img/white-wall.jpg);
     background-size: cover;
     scroll-behavior: smooth;
     height: 100%;
@@ -164,7 +164,7 @@ footer {
 
 }
 .card {
-    background-image: url(img/model.jpg);
+    background-image: url(../img/model.jpg);
     background-size: cover;
     border-radius: 20px;
     display: flex;
@@ -181,7 +181,7 @@ footer {
     font-weight: bold;
 }
 .wooden-wall {
-    background-image: url(img/original-wooden-wall.jpg);
+    background-image: url(../img/original-wooden-wall.jpg);
     background-size: cover;
     min-height: 150px;
 }
