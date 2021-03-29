@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Назарій Ковалик</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="img/wooden-wall-different-color.jpg" </head>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="/img/wooden-wall-different-color.jpg" </head>
 
 <body>
     <header id="home">
         <nav>
-            <IMG class="logo" src="img/silver-wooden-walls.jpg" alt="Срібна дерев'яна стіна">
+            <IMG class="logo" src="/img/silver-wooden-walls.jpg" alt="Срібна дерев'яна стіна">
             <label class="burger-icon" for="burger-checkbox">☰</label>
             <input type="checkbox" id="burger-checkbox">
             <ul class="menu">
@@ -22,14 +22,6 @@
                 <li> <a href="#Contacts">Контакти</a> </li>
             </ul>
             <div class="clock"></div>
-            <div class="audio-track">
-                <audio id="audio" src="./audio/treck1.mp3"></audio>
-                <div id="controls"><div class="time"></div></div>       
-                <button class="play">Play</button>
-                <button class="pause">Pause</button>
-                <button class="prev">&#60;Prev</button>
-                <button class="next">Next&#62;</button>
-        </div>
     </nav>
         <div class="banner">
         <h1>Назарій Ковалик - майстер по дереву</h1>
@@ -78,12 +70,12 @@
         <h2 id="My-projects"> Мої проекти</h2>
         <p>Ось кілька моїх проектів...</p>
         <div class="gallery">
-            <img class="large-image" src="img/wooden-wall-different-color.jpg" alt="Проект стіни 1">
-            <img src="img/project-white.jpg" alt="Проект стіни 2. Біла кладка">
-            <img src="img/project-white-brown.jpg" alt="Проект стіни 3. Біло-коричнева кладка">
-            <img src="img/old-wall.jpg" alt="Проект стіни 4. Сіра стара кладка">
-            <img class="large-image" src="img/rustic-wood.jpg" alt="Проект стіни 6. Кольорова стара кладка">
-            <img src="img/old-rustic-wall.jpg" alt="Проект стіни 5. Дорога кладка">
+            <img class="large-image" src="/img/wooden-wall-different-color.jpg" alt="Проект стіни 1">
+            <img src="/img/project-white.jpg" alt="Проект стіни 2. Біла кладка">
+            <img src="/img/project-white-brown.jpg" alt="Проект стіни 3. Біло-коричнева кладка">
+            <img src="/img/old-wall.jpg" alt="Проект стіни 4. Сіра стара кладка">
+            <img class="large-image" src="/img/rustic-wood.jpg" alt="Проект стіни 6. Кольорова стара кладка">
+            <img src="/img/old-rustic-wall.jpg" alt="Проект стіни 5. Дорога кладка">
         </div>
         <div class="box">
             <div>
@@ -120,8 +112,17 @@
 
 
     </footer>
-    <script src="js/index.js"></script>
-    <script src="js/player.js"></script>
+                <div class="audio-player">
+                <audio id="audio" src="/audio/treck1.mp3"></audio>
+                <div id="controls" class="audio-track"><div class="time"></div></div>       
+                <button class="play">Play</button>
+                <button class="pause">Pause</button>
+                <button class="prev">&#60; Prev</button>
+                <button class="next">Next &#62;</button>
+        </div>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/player.js"></script>
 </body>
 
 </html>
