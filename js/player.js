@@ -20,7 +20,7 @@ window.onload = function () {
     treck = 0; // Присвоюєм змінній 0
 }
 function switchTreck(numTreck) {
-    audio.src = "../audio/" + playlist[numTreck];
+    audio.src = "../maket/audio/" + playlist[numTreck];
     audio.currentTime = 0;
     audio.play();
 }
